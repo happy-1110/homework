@@ -7,7 +7,7 @@ int main(void) {
     float f;
     scanf("%f", &c);
     f = c * 9.0 / 5 + 32;
-    printf("%.1f\n", f);
+    printf("华氏度为%.1f\n", f);
 
     return 0;
 }
