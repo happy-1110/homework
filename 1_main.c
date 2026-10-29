@@ -5,10 +5,10 @@
 int main(void) {
     float c;
     float f;
-    printf("请输入摄氏度：");
+    printf("输入：");
     scanf("%f", &c);
     f = c * 9.0 / 5 + 32;
-    printf("华氏度是%.1f\n", f);
+    printf("输出：华氏温度%.1f\n", f);
 
     return 0;
 }
