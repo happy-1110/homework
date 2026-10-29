@@ -2,7 +2,6 @@
 //尹忠泉
 #include<stdio.h>
 int main(void) {
-    printf("简易计算器\n");
     float a, b;
     int op;
     scanf ("%f %c %f", &a,&op,&b);
